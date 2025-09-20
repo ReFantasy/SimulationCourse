@@ -1,7 +1,4 @@
 # Simulator
-[![linux](https://github.com/ReFantasy/Simulator/actions/workflows/linux.yaml/badge.svg)](https://github.com/ReFantasy/Simulator/actions/workflows/linux.yaml)
-[![macOS](https://github.com/ReFantasy/Simulator/actions/workflows/macos.yaml/badge.svg)](https://github.com/ReFantasy/Simulator/actions/workflows/macos.yaml)
-[![windows](https://github.com/ReFantasy/Simulator/actions/workflows/windows.yaml/badge.svg)](https://github.com/ReFantasy/Simulator/actions/workflows/windows.yaml)
 ## Setup
 ### Clone Repository
 ```bash
