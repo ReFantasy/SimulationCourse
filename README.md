@@ -2,7 +2,7 @@
 ## Setup
 ### Clone Repository
 ```bash
-git clone --depth=1 --recurse-submodules git@github.com:ReFantasy/Simulator.git
+git clone --depth=1 --recurse-submodules https://github.com/ReFantasy/SimulationCourse.git
 ```
 or
 ```bash
