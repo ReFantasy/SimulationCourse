@@ -13,7 +13,7 @@ git submodule update --init --recursive
 ```
 ### Build Project
 ```bash
-cd Simulator
+cd SimulationCourse
 cmake -S . -B build 
 cmake --build build -j8
 ```
