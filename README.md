@@ -6,7 +6,7 @@ git clone --depth=1 --recurse-submodules https://github.com/ReFantasy/Simulation
 ```
 or
 ```bash
-git clone git@github.com:ReFantasy/Simulator.git
+git clone https://github.com/ReFantasy/SimulationCourse.git
 git submodule update --init --recursive
 ```
 ### Build Project
