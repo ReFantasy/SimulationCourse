@@ -1,5 +1,5 @@
 # Simulator
-**A mass-spring cloth simulator using Polyscope for visualization and Eigen for numerical computation.**
+**A mass-spring cloth simulator using *Polyscope* for visualization and *Eigen* for numerical computation.**
 ## Setup
 ### Clone Repository
 ```bash
@@ -17,6 +17,6 @@ cd SimulationCourse
 cmake -S . -B build 
 cmake --build build -j8
 ```
-### Homework
-Complete the implementation of function `void EulerStep(System& system, REAL dt)` in **src/timestepper/euler.cpp** 
+## Homework
+Complete the function `void EulerStep(System& system, REAL dt)` in **src/timestepper/euler.cpp** 
 and `void MassSpringSystem::CalculateForces()` in **src/mass_spring_sytem.cpp**.
