@@ -1,4 +1,5 @@
 # Simulator
+**A mass-spring cloth simulator using Polyscope for visualization and Eigen for numerical computation.**
 ## Setup
 ### Clone Repository
 ```bash
