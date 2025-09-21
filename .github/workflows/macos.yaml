@@ -1,0 +1,21 @@
+name: macOS
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: 'recursive'
+
+    - name: install packages
+      run: brew install ninja
+
+    - name: build
+      run: cmake -S . -B build -G Ninja && cmake --build build
