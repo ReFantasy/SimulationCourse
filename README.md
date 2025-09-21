@@ -22,5 +22,6 @@ cmake -S . -B build
 cmake --build build -j8
 ```
 ## Homework
-Complete the function `void EulerStep(System& system, REAL dt)` in **src/timestepper/euler.cpp** 
-and `void MassSpringSystem::CalculateForces()` in **src/mass_spring_sytem.cpp**.
+Complete the function 
+- `void EulerStep(System& system, REAL dt)` in src/timestepper/euler.cpp
+- `void MassSpringSystem::CalculateForces()` in src/mass_spring_sytem.cpp
